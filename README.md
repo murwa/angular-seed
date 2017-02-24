@@ -66,14 +66,13 @@ makes it easier to serve the files by a web server.*
 
 ### Run the Application
 
-We have preconfigured the project with a simple development web server. The simplest way to start
-this server is:
+Since we have enabled html5 mode, we have setup a simple express server to serve our pages, simply run:-
 
 ```
-npm start
+node index.js
 ```
 
-Now browse to the app at [`localhost:8000/index.html`][local-app-url].
+Now browse to the app at [`localhost:3000`][local-app-url].
 
 
 ## Directory Layout
