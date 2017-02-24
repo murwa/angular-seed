@@ -11,7 +11,11 @@ angular.module('myApp', [
     $locationProvider.html5Mode(true);
 
     // Define routes
-
+    $stateProvider.state({
+        name: 'home',
+        url: '/',
+        template: "You're home dude..."
+    });
 
     // Redirect to
     $urlRouterProvider.otherwise('/errors');
