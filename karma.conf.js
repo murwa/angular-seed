@@ -11,7 +11,7 @@ module.exports = function(config) {
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'bower_components/satellizer/dist/satellizer.js',
       'components/**/*.js',
-      'view*/**/*.js'
+      'views/**/*.js'
     ],
 
     autoWatch: true,
