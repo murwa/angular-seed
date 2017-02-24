@@ -8,7 +8,7 @@ angular.module('myApp', [
     'myApp.version'
 ]).config(['$locationProvider', '$stateProvider', '$urlRouterProvider', function ($locationProvider, $stateProvider, $urlRouterProvider) {
     // Enable html5 mode
-    // $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
 
     // Define routes
 
